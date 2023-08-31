@@ -1,8 +1,16 @@
-# React + Vite
+# Furnio Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+### A collaborative project with [HokageCodes](https://github.com/hokageCodes)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Scope
+- An E-Commerce furniture landing page
+
+## Stack
+- React Js for UI and Components
+- Tailwind CSS for styling and media queries
+- Fontawesome Icons for icons
+
+## Build Process
+
+- Work on the main reuseable components - Navbar, Footer, Buttons and Cards

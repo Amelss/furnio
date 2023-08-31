@@ -1,4 +1,6 @@
 import Header from './components/Header'
+import Cards from './components/Cards'
+import Buttons from './components/Buttons'
 import Footer from './components/Footer'
 
 
@@ -9,7 +11,9 @@ function App() {
     <>
       
       <Header />
-        <Footer />
+      <Cards />
+      <Buttons />
+      <Footer />
      
     </>
   )
