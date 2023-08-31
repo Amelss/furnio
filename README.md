@@ -3,7 +3,7 @@
 
 ### A collaborative project with [HokageCodes](https://github.com/hokageCodes)
 
-### Scope
+## Scope
 - An E-Commerce furniture landing page
 
 ## Stack
@@ -13,4 +13,4 @@
 
 ## Build Process
 
-- Work on the main reuseable components - Navbar, Footer, Buttons and Cards
+1. Work on the main reuseable components - Navbar, Footer, Buttons and Cards
