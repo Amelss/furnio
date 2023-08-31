@@ -1,6 +1,8 @@
 
 export default function Footer() {
   return (
-    <div>Footer</div>
+      <div>
+         <h1 className="text-green-500">Footer</h1> 
+      </div>
   )
 }
