@@ -534,12 +534,16 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.mb-\[10px\] {
-  margin-bottom: 10px;
+.mb-\[100px\] {
+  margin-bottom: 100px;
 }
 
-.mb-\[20px\] {
-  margin-bottom: 20px;
+.mb-\[50px\] {
+  margin-bottom: 50px;
+}
+
+.mb-\[60px\] {
+  margin-bottom: 60px;
 }
 
 .ml-\[100px\] {
@@ -554,18 +558,6 @@ video {
   margin-right: 100px;
 }
 
-.mt-\[20px\] {
-  margin-top: 20px;
-}
-
-.mb-\[50px\] {
-  margin-bottom: 50px;
-}
-
-.mb-\[60px\] {
-  margin-bottom: 60px;
-}
-
 .mt-\[50px\] {
   margin-top: 50px;
 }
@@ -574,12 +566,12 @@ video {
   display: flex;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .w-\[1200px\] {
   width: 1200px;
+}
+
+.w-\[100\%\] {
+  width: 100%;
 }
 
 .max-w-\[285px\] {
@@ -590,36 +582,48 @@ video {
   flex-direction: column;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-around {
   justify-content: space-around;
-}
-
-.gap-\[10px\] {
-  gap: 10px;
-}
-
-.gap-\[15px\] {
-  gap: 15px;
-}
-
-.gap-\[20px\] {
-  gap: 20px;
 }
 
 .gap-\[100px\] {
   gap: 100px;
 }
 
+.gap-\[20px\] {
+  gap: 20px;
+}
+
 .gap-\[30px\] {
   gap: 30px;
+}
+
+.gap-\[50px\] {
+  gap: 50px;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-\[16px\] {
   font-size: 16px;
 }
 
+.text-\[20px\] {
+  font-size: 20px;
+}
+
 .text-\[24px\] {
   font-size: 24px;
+}
+
+.text-\[32px\] {
+  font-size: 32px;
 }
 
 .font-bold {
@@ -634,6 +638,10 @@ video {
   font-weight: 400;
 }
 
+.font-semibold {
+  font-weight: 600;
+}
+
 .leading-\[24px\] {
   line-height: 24px;
 }
@@ -642,14 +650,27 @@ video {
   line-height: 36px;
 }
 
+.leading-normal {
+  line-height: 1.5;
+}
+
 .text-\[\#000\] {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+.text-\[\#666\] {
+  --tw-text-opacity: 1;
+  color: rgb(102 102 102 / var(--tw-text-opacity));
+}
+
 .text-\[\#9F9F9F\] {
   --tw-text-opacity: 1;
   color: rgb(159 159 159 / var(--tw-text-opacity));
+}
+
+.text-\[\#\] {
+  color: #;
 }
 
 .text-orange-500 {
@@ -677,35 +698,7 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:mb-0 {
-    margin-bottom: 0px;
-  }
-
-  .md\:mb-\[50px\] {
-    margin-bottom: 50px;
-  }
-
-  .md\:mb-\[60px\] {
-    margin-bottom: 60px;
-  }
-
-  .md\:mt-\[50px\] {
-    margin-top: 50px;
-  }
-
-  .md\:mb-\[0\] {
-    margin-bottom: 0;
-  }
-
-  .md\:w-\[1200px\] {
-    width: 1200px;
-  }
-
   .md\:flex-row {
     flex-direction: row;
-  }
-
-  .md\:gap-\[100px\] {
-    gap: 100px;
   }
 }
