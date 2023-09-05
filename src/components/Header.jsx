@@ -19,19 +19,27 @@ export default function Header() {
             </h2>
           </div>
         </div>
-        <div>
-          <Link to={"/"} className="font-poppins">
-            Home
-          </Link>
-          <Link to={"/"} className="font-poppins">
-            Shop
-          </Link>
-          <Link to={"/"} className="font-poppins">
-            About
-          </Link>
-          <Link to={"/"} className="font-poppins">
-            Contact
-          </Link>
+        <div className="flex justify-between">
+          <div className="">
+            <Link to={"/"} className="font-poppins">
+              Home
+            </Link>
+          </div>
+          <div className="ml-14">
+            <Link to={"/"} className="font-poppins">
+              Shop
+            </Link>
+          </div>
+          <div className="ml-14">
+            <Link to={"/"} className="font-poppins">
+              About
+            </Link>
+          </div>
+          <div className="ml-14">
+            <Link to={"/"} className="font-poppins">
+              Contact
+            </Link>
+          </div>
         </div>
 
         <div className="hidden md:flex justify-between">
@@ -88,16 +96,14 @@ export default function Header() {
               </Link>
             </Menu>
           </div>
-          
-            <div>
-              <img
+
+          <div>
+            <img
               src="./src/assets/cart.png"
               alt="logo"
               className="w-6 md:w-6"
-            />  
+            />
           </div>
-            
-          
         </div>
       </nav>
     </div>

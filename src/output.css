@@ -570,6 +570,14 @@ video {
   margin-top: 50px;
 }
 
+.ml-10{
+  margin-left: 2.5rem;
+}
+
+.ml-14{
+  margin-left: 3.5rem;
+}
+
 .flex{
   display: flex;
 }
@@ -696,6 +704,11 @@ video {
   line-height: 1.5rem;
 }
 
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -710,6 +723,10 @@ video {
 
 .font-semibold{
   font-weight: 600;
+}
+
+.font-\[16px\]{
+  font-weight: 16px;
 }
 
 .leading-\[24px\]{
