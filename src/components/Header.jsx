@@ -20,20 +20,18 @@ export default function Header() {
           </div>
         </div>
         <div className="flex justify-between">
-          
-            <Link to={"/"} className="font-poppins">
-              Home
-            </Link>
-            <Link to={"/"} className="font-poppins ml-14">
-              Shop
-            </Link>
-            <Link to={"/"} className="font-poppins ml-14">
-              About
-            </Link>
-            <Link to={"/"} className="font-poppins ml-14">
-              Contact
-            </Link>
-          
+          <Link to={"/"} className="font-poppins">
+            Home
+          </Link>
+          <Link to={"/"} className="font-poppins ml-14">
+            Shop
+          </Link>
+          <Link to={"/"} className="font-poppins ml-14">
+            About
+          </Link>
+          <Link to={"/"} className="font-poppins ml-14">
+            Contact
+          </Link>
         </div>
 
         <div className="hidden md:flex">
@@ -47,8 +45,16 @@ export default function Header() {
             alt="logo"
             className="w-4 md:w-6 ml-6"
           />
-          <img src="./src/assets/heart.png" alt="logo" className="w-4 md:w-6 ml-6" />
-          <img src="./src/assets/cart.png" alt="logo" className="w-4 md:w-6 ml-6" />
+          <img
+            src="./src/assets/heart.png"
+            alt="logo"
+            className="w-4 md:w-6 ml-6"
+          />
+          <img
+            src="./src/assets/cart.png"
+            alt="logo"
+            className="w-4 md:w-6 ml-6"
+          />
         </div>
       </nav>
 
@@ -88,6 +94,12 @@ export default function Header() {
               <Link to={"/"} className="font-poppins text-base">
                 Wishlist
               </Link>
+
+              <img
+                src="./src/assets/search.png"
+                alt="logo"
+                className="w-4 md:w-6 mt-2"
+              />
             </Menu>
           </div>
 
