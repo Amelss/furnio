@@ -34,7 +34,7 @@ export default function Header() {
           </Link>
         </div>
 
-        <div className="flex justify-between">
+        <div className="hidden md:flex justify-between">
           <img
             src="./src/assets/account.png"
             alt="logo"
@@ -51,7 +51,7 @@ export default function Header() {
       </nav>
 
       {/*----------------- MOBILE NAV --------------*/}
-      <nav className="md:hidden p-3 items-center justify-between">
+      <nav className="md:hidden flex p-3 items-center justify-between">
         <div>
           <div className="flex items-center ">
             <img
@@ -64,22 +64,40 @@ export default function Header() {
             </h2>
           </div>
         </div>
-
-        <div>
-          <Menu>
-            <Link to={"/"} className="font-poppins">
-              Home
-            </Link>
-            <Link to={"/"} className="font-poppins">
-              Shop
-            </Link>
-            <Link to={"/"} className="font-poppins">
-              About
-            </Link>
-            <Link to={"/"} className="font-poppins">
-              Contact
-            </Link>
-          </Menu>
+        <div className="flex items-center pl-2 pr-2">
+          <div>
+            <Menu>
+              <Link to={"/"} className="font-poppins">
+                Home
+              </Link>
+              <Link to={"/"} className="font-poppins">
+                Shop
+              </Link>
+              <Link to={"/"} className="font-poppins">
+                About
+              </Link>
+              <Link to={"/"} className="font-poppins">
+                Contact
+              </Link>
+              <hr></hr>
+              <Link to={"/"} className="font-poppins text-base">
+                Account
+              </Link>
+              <Link to={"/"} className="font-poppins text-base">
+                Wishlist
+              </Link>
+            </Menu>
+          </div>
+          
+            <div>
+              <img
+              src="./src/assets/cart.png"
+              alt="logo"
+              className="w-6 md:w-6"
+            />  
+          </div>
+            
+          
         </div>
       </nav>
     </div>
