@@ -20,29 +20,23 @@ export default function Header() {
           </div>
         </div>
         <div className="flex justify-between">
-          <div className="">
+          
             <Link to={"/"} className="font-poppins">
               Home
             </Link>
-          </div>
-          <div className="ml-14">
-            <Link to={"/"} className="font-poppins">
+            <Link to={"/"} className="font-poppins ml-14">
               Shop
             </Link>
-          </div>
-          <div className="ml-14">
-            <Link to={"/"} className="font-poppins">
+            <Link to={"/"} className="font-poppins ml-14">
               About
             </Link>
-          </div>
-          <div className="ml-14">
-            <Link to={"/"} className="font-poppins">
+            <Link to={"/"} className="font-poppins ml-14">
               Contact
             </Link>
-          </div>
+          
         </div>
 
-        <div className="hidden md:flex justify-between">
+        <div className="hidden md:flex">
           <img
             src="./src/assets/account.png"
             alt="logo"
@@ -51,10 +45,10 @@ export default function Header() {
           <img
             src="./src/assets/search.png"
             alt="logo"
-            className="w-4 md:w-6"
+            className="w-4 md:w-6 ml-6"
           />
-          <img src="./src/assets/heart.png" alt="logo" className="w-4 md:w-6" />
-          <img src="./src/assets/cart.png" alt="logo" className="w-4 md:w-6" />
+          <img src="./src/assets/heart.png" alt="logo" className="w-4 md:w-6 ml-6" />
+          <img src="./src/assets/cart.png" alt="logo" className="w-4 md:w-6 ml-6" />
         </div>
       </nav>
 
