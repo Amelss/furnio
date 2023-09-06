@@ -1,3 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Montserrat:wght@300;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bm-burger-button {
+  position: relative;
+  width: 25px;
+  height: 20px;
+  right: 15px;
+  top: 0;
+  padding: 3px;
+}
+
+
+.bm-burger-bars {
+  background: #373a47;
+}
+
+
+.bm-burger-bars-hover {
+  background: #B88E2F;
+}
+
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
+.bm-menu-wrap {
+   position: absolute;
+   height: 100%;
+   left: 0px;
+   top: 0;
+   margin-left: 0;
+}
+
+
+.bm-menu {
+  background: #FFF3E3;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  font-size: 1.15em;
+}
+
+
+.bm-item-list {
+  color: #B88E2F;
+  padding: 1em;
+  font-size: 25px;
+}
+
+
+.bm-item {
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  height: 100%;
+  left: 0px;
+  top: 0;
+  margin-left: 0;
+}
