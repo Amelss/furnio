@@ -1,6 +1,7 @@
 [
   {
     "id": 0,
+    "img": "https://images.pexels.com/photos/3965508/pexels-photo-3965508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", 
     "productName": "Syltherine",
     "description": "Stylish cafe chair",
     "price": 2500,
@@ -10,7 +11,9 @@
   },
   {
     "id": 1,
+    
     "productName": "Leviosa",
+    "img": "https://images.unsplash.com/photo-1592885331172-bf57d2281135?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2572&q=80",
     "description": "Stylish cafe chair",
     "price": 2000,
     "beforePrice": 0,
@@ -20,6 +23,7 @@
   {
     "id": 2,
     "productName": "Lolito",
+    "img": "https://images.pexels.com/photos/4352247/pexels-photo-4352247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "description": "Luxury big sofa",
     "price": 7000,
     "beforePrice": 0,
@@ -29,15 +33,17 @@
   {
     "id": 3,
     "productName": "Respira",
-    "description": "Outdoor bar table and stool",
+    "img": "https://images.pexels.com/photos/14792096/pexels-photo-14792096.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Retro leather arm chair",
     "price": 5000,
     "beforePrice": 0,
     "new": true,
-    "discount": 50
+    "discount": 0
   },
   {
     "id": 4,
     "productName": "Grifo",
+    "img": "https://images.pexels.com/photos/707579/pexels-photo-707579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "description": "Night lamp",
     "price": 1500,
     "beforePrice": 0,
@@ -47,6 +53,7 @@
   {
     "id": 5,
     "productName": "Muggo",
+    "img": "https://images.pexels.com/photos/7060811/pexels-photo-7060811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "description": "Small coffee table",
     "price": 150,
     "beforePrice": 0,
@@ -56,6 +63,7 @@
   {
     "id": 6,
     "productName": "Pingky",
+    "img": "https://images.pexels.com/photos/4846097/pexels-photo-4846097.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "description": "Luxury 3 Seater sofa",
     "price": 7000,
     "beforePrice": 14000,
@@ -65,6 +73,7 @@
   {
     "id": 7,
     "productName": "Potty",
+    "img": "https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "description": "Orange 2 seater sofa",
     "price": 5000,
     "beforePrice": 0,

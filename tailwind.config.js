@@ -19,6 +19,8 @@ module.exports = {
         cardTextGrey: "#898989",
         footerGrey: "#9F9F9F",
         textGrey: "#333333",
+        cardGrey: "#F4F5F7",
+        lineThroughGrey: "#B0B0B0",
       },
     },
   },
