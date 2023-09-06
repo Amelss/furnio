@@ -25,18 +25,34 @@ export default function Cards() {
 
   return (
     <div>
-      
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 p-3 content-center font-poppins ">
+        {productData.map((products) => (
+          <div key={id}>
+            <div className="md:w-[300px]">
+              <div>
+                <img
+                  src={products.img}
+                  alt="product image"
+                  className="w-[300px] h-[200px] md:w-[300px] md:h-[400px]"
+                />
+                <div>{products.new}</div>
+              </div>
 
+              <div className="bg-cardGrey p-3 w-full h-28">
+                <h1 className="text-xl text-headingGrey">{products.productName}</h1>
+                <p className="text-sm text-cardTextGrey">{products.description}</p>
 
-      <h1 className="text-orange-500">Cards</h1>  
-      {productData.map((products) => (
-        <div key={id}>  
-          <div>
-            <h1>{products.productName}</h1>
+                {products.beforePrice > 1 ? (
+                  <p className="text-base text-headingGrey">
+                  {products.price} <span className="text-lineThroughGrey line-through">{products.beforePrice}</span>
+                </p>
+                ) : (<p>{products.price}</p> )}
+                
+              </div>
+            </div>
           </div>
-          
-        </div>
-      ))}
+        ))}
       </div>
-  )
+    </div>
+  );
 }
