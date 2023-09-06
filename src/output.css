@@ -686,6 +686,18 @@ video {
   gap: 30px;
 }
 
+.gap-1{
+  gap: 0.25rem;
+}
+
+.gap-2{
+  gap: 0.5rem;
+}
+
+.gap-5{
+  gap: 1.25rem;
+}
+
 .bg-cardGrey{
   --tw-bg-opacity: 1;
   background-color: rgb(244 245 247 / var(--tw-bg-opacity));
@@ -701,6 +713,10 @@ video {
 
 .pr-2{
   padding-right: 0.5rem;
+}
+
+.pb-1{
+  padding-bottom: 0.25rem;
 }
 
 .text-center{
@@ -916,6 +932,10 @@ video {
 
   .md\:w-\[300px\]{
     width: 300px;
+  }
+
+  .md\:w-\[1000px\]{
+    width: 1000px;
   }
 
   .md\:grid-cols-4{
