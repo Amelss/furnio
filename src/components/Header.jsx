@@ -59,7 +59,7 @@ export default function Header() {
       </nav>
 
       {/*----------------- MOBILE NAV --------------*/}
-      <nav className="md:hidden flex p-3 items-center justify-between">
+      <nav className="md:hidden flex p-3 items-center justify-between max-w-screen-sm">
         <div>
           <div className="flex items-center ">
             <img
